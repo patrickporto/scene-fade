@@ -6,9 +6,6 @@
 
 ## About
 
-> TODO
+This module adds a fade effect when changing scenes.
 
-## Settings
-
-> TODO
-
+![](./docs/demo.mp4)
