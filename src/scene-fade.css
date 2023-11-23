@@ -1,0 +1,53 @@
+.scene-fade {
+    animation-name:fadeOut;
+    animation-duration:0.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.scene-fade--initial {
+    animation-name: fadeIn;
+    animation-duration: 0;
+}
+
+.scene-fade__background {
+    display: block;
+    background-color:black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.scene-fade--transitioning {
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index:1;
+    animation-name:fadeIn;
+    animation-duration:0.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+@keyframes fadeOut {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

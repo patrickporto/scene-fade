@@ -1,13 +1,13 @@
 {
-    "id": "fvtt-module-template",
+    "id": "scene-fade",
     "version": "11.0.0",
     "compatibility": {
         "minimum": "11",
         "verified": "11",
         "maximum": "11"
     },
-    "title": "fvtt-module-template",
-    "description": "A Foundry VTT module template",
+    "title": "Scene Fade",
+    "description": "A simple transition among scene transitions",
     "languages": [
         {
             "lang": "en",
@@ -15,8 +15,11 @@
             "path": "lang/en.json"
         }
     ],
-    "url": "https://github.com/patrickporto/fvtt-module-template",
+    "url": "https://github.com/patrickporto/scene-fade",
     "esmodules": [
-        "fvtt-module-template.js"
+        "scene-fade.js"
+    ],
+    "styles": [
+        "scene-fade.css"
     ]
 }
