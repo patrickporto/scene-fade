@@ -8,4 +8,5 @@
 
 This module adds a fade effect when changing scenes.
 
-![](./docs/demo.mp4)
+https://github.com/patrickporto/scene-fade/assets/1543276/88ee8382-3f71-4248-8a9e-d30a4e28e460
+
