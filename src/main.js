@@ -22,8 +22,5 @@ Hooks.on('canvasTearDown', (canvas) => {
 
 Hooks.on("canvasReady", () => {
     console.log(`${MODULE_NAME} | Canvas is ready`);
-    // setTimeout(() => {
-    //     $(board).removeClass("scene-fade--transitioning");
-    // }, 10000);
     $(board).removeClass("scene-fade--transitioning").removeClass("scene-fade--initial");
 });
