@@ -1,12 +1,12 @@
 .scene-fade {
-    animation-name:fadeOut;
+    animation-name:sceneFadeOut;
     animation-duration:0.5s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
 }
 
 .scene-fade--initial {
-    animation-name: fadeIn;
+    animation-name: sceneFadeIn;
     animation-duration: 0;
 }
 
@@ -27,13 +27,13 @@
     height: 100vh;
     width: 100vw;
     z-index:1;
-    animation-name:fadeIn;
+    animation-name:sceneFadeIn;
     animation-duration:0.5s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
 }
 
-@keyframes fadeIn {
+@keyframes sceneFadeIn {
     from{
         opacity: 1;
     }
@@ -43,7 +43,7 @@
 }
 
 
-@keyframes fadeOut {
+@keyframes sceneFadeOut {
     from{
         opacity: 0;
     }
