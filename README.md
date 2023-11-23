@@ -8,5 +8,5 @@
 
 This module adds a fade effect when changing scenes.
 
-https://github.com/patrickporto/scene-fade/assets/1543276/88ee8382-3f71-4248-8a9e-d30a4e28e460
+[recording.webm](https://github.com/patrickporto/scene-fade/assets/1543276/bdcb8e97-cbc7-47bd-8096-e283f021160b)
 
