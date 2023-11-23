@@ -8,13 +8,15 @@ Hooks.on('canvasInit', async () => {
     console.log(`${MODULE_NAME} | Initializing ${MODULE_NAME}`);
     board = document.getElementById("board");
     $(boardTransitionBackground).insertBefore(board)
-    $(board).addClass("scene-fade").addClass("scene-fade--initial");
+    if ($(board).hasClass("scene-fade")) {
+        $(board).addClass("scene-fade").addClass("scene-fade--transitioning");
+    } else {
+        $(board).addClass("scene-fade").addClass("scene-fade--initial");
+    }
 });
 
 Hooks.on('canvasTearDown', async (canvas) => {
     console.log(`${MODULE_NAME} | Canvas is being torn down`);
-    // console.log(canvas.masks.canvas)
-    console.log(canvas)
     $(board).addClass("scene-fade--transitioning");
 });
 
