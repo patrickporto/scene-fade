@@ -4,7 +4,7 @@ import "./scene-fade.css"
 let board = null
 const boardTransitionBackground = $(`<div class="scene-fade__background"></div>`)
 
-Hooks.on('canvasInit', async () => {
+Hooks.on('canvasInit', () => {
     console.log(`${MODULE_NAME} | Initializing ${MODULE_NAME}`);
     board = document.getElementById("board");
     $(boardTransitionBackground).insertBefore(board)
@@ -15,12 +15,12 @@ Hooks.on('canvasInit', async () => {
     }
 });
 
-Hooks.on('canvasTearDown', async (canvas) => {
+Hooks.on('canvasTearDown', (canvas) => {
     console.log(`${MODULE_NAME} | Canvas is being torn down`);
     $(board).addClass("scene-fade--transitioning");
 });
 
-Hooks.on("canvasReady", async () => {
+Hooks.on("canvasReady", () => {
     console.log(`${MODULE_NAME} | Canvas is ready`);
     // setTimeout(() => {
     //     $(board).removeClass("scene-fade--transitioning");
