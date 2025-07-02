@@ -1,27 +1,27 @@
 {
-    "id": "scene-fade",
-    "version": "13.0.0",
-    "compatibility": {
-        "minimum": "11",
-        "verified": "13",
-        "maximum": "13"
-    },
-    "title": "Scene Fade",
-    "description": "A simple transition among scene transitions",
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
-    "url": "https://github.com/patrickporto/scene-fade",
-    "esmodules": [
-        "scene-fade.js"
-    ],
-    "styles": [
-        "scene-fade.css"
-    ],
-    "manifest": "https://github.com/patrickporto/scene-fade/releases/download/11.0.5/module.json",
-    "download": "https://github.com/patrickporto/scene-fade/releases/download/11.0.5/scene-fade.zip"
+  "id": "scene-fade",
+  "version": "13.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "title": "Scene Fade",
+  "description": "A simple transition among scene transitions",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/patrickporto/scene-fade",
+  "esmodules": [
+    "scene-fade.js"
+  ],
+  "styles": [
+    "scene-fade.css"
+  ],
+  "manifest": "https://github.com/patrickporto//releases/download/13.0.0/module.json",
+  "download": "https://github.com/patrickporto//releases/download/13.0.0/.zip"
 }
